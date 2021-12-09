@@ -34,7 +34,7 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: fluentd
-  namespace: monitoring
+  namespace: logzio-mon
 ---
 apiVersion: apps/v1
 kind: DaemonSet
