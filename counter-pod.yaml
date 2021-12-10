@@ -7,4 +7,4 @@ spec:
   - name: count
     image: busybox
     args: [/bin/sh, -c,
-            'i=0; while true; do cat /demo/test.txt ; i=$((i+1)); sleep 60; done']
+            'i=0; while true; do cat /demo/test.json ; i=$((i+1)); sleep 60; done']
